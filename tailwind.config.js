@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  safelist: [
+    'hover:text-darker-red',
+  ],
   content: [
     './index.html',
     './index.js', 
