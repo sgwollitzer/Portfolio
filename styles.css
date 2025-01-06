@@ -619,15 +619,15 @@ video {
 }
 .border-darker-red {
   --tw-border-opacity: 1;
-  border-color: rgb(126 37 84 / var(--tw-border-opacity, 1));
+  border-color: rgb(19 62 135 / var(--tw-border-opacity, 1));
 }
 .border-neon-red {
   --tw-border-opacity: 1;
-  border-color: rgb(255 0 77 / var(--tw-border-opacity, 1));
+  border-color: rgb(96 139 193 / var(--tw-border-opacity, 1));
 }
 .bg-darker-red {
   --tw-bg-opacity: 1;
-  background-color: rgb(126 37 84 / var(--tw-bg-opacity, 1));
+  background-color: rgb(19 62 135 / var(--tw-bg-opacity, 1));
 }
 .bg-navy {
   --tw-bg-opacity: 1;
@@ -635,7 +635,7 @@ video {
 }
 .bg-neon-red {
   --tw-bg-opacity: 1;
-  background-color: rgb(255 0 77 / var(--tw-bg-opacity, 1));
+  background-color: rgb(96 139 193 / var(--tw-bg-opacity, 1));
 }
 .bg-gradient-radial {
   background-image: radial-gradient(circle, #1B1833, #221936 );
@@ -702,11 +702,11 @@ video {
 }
 .text-darker-red {
   --tw-text-opacity: 1;
-  color: rgb(126 37 84 / var(--tw-text-opacity, 1));
+  color: rgb(19 62 135 / var(--tw-text-opacity, 1));
 }
 .text-neon-red {
   --tw-text-opacity: 1;
-  color: rgb(255 0 77 / var(--tw-text-opacity, 1));
+  color: rgb(96 139 193 / var(--tw-text-opacity, 1));
 }
 .transition-all {
   transition-property: all;
@@ -778,11 +778,11 @@ video {
 }
 .hover\:border-neon-red:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(255 0 77 / var(--tw-border-opacity, 1));
+  border-color: rgb(96 139 193 / var(--tw-border-opacity, 1));
 }
 .hover\:text-neon-red:hover {
   --tw-text-opacity: 1;
-  color: rgb(255 0 77 / var(--tw-text-opacity, 1));
+  color: rgb(96 139 193 / var(--tw-text-opacity, 1));
 }
 .peer:hover ~ .peer-hover\:bottom-0 {
   bottom: 0px;
