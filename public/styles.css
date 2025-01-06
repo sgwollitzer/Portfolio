@@ -763,23 +763,23 @@ video {
     }
 /* From Uiverse.io by cssbuttons-io */
 .button1 {
-    --glow-color:#608BC1 ;
-    --glow-spread-color: #133E87;
-    --btn-color: #133E87;
-    border: .25em solid var(--glow-color);
-    padding: 1em 3em;
-    color: var(--glow-color);
-    font-size: 15px;
-    font-weight: bold;
-    background-color: var(--btn-color);
-    border-radius: 1em;
-    outline: none;
+    --glow-color:#608BC1 !important;
+    --glow-spread-color: #133E87 !important;
+    --btn-color: #133E87 !important;
+    border: .25em solid var(--glow-color) !important;
+    padding: 1em 3em !important;
+    color: var(--glow-color) !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+    background-color: var(--btn-color) !important;
+    border-radius: 1em !important;
+    outline: none !important;
     box-shadow: 0 0 1em .25em var(--glow-color),
            0 0 4em 1em var(--glow-spread-color),
-           inset 0 0 .75em .25em var(--glow-color);
-    text-shadow: 0 0 .5em var(--glow-color);
-    position: relative;
-    transition: all 0.3s;
+           inset 0 0 .75em .25em var(--glow-color) !important;
+    text-shadow: 0 0 .5em var(--glow-color) !important;
+    position: relative !important;
+    transition: all 0.3s !important;
    }
 .button1::after {
     pointer-events: none;
