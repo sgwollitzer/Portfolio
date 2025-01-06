@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link href="styles.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <script src="server.js" defer></script>
+
+  
+
+</head>
+  <body class="bg-navy text-neon-red font-custom">
+
+    <section class="pt-[300px] pb-[300px] flex flex-col justify-center min-h-screen items-center cursor-default">
+        <section class="flex space-x-1">
+        <h2 id="home" class="text-7xl mb-4 hover:text-darker-red ease-linear duration-100">H</h2>
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">e</h2>
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">l</h2>
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">l</h2>
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">o</h2>
+        <h2 class="text-7xl mr-5 hover:text-darker-red ease-linear duration-100">, </h2>
+        <h2 class="text-7xl mr-1 hover:text-darker-red ease-linear duration-300">&nbsp;</h2>
+
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">I</h2>
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">'</h2>
+        <h2 class="text-7xl mr-2 hover:text-darker-red ease-linear duration-100">m </h2>
+        <h2 class="text-7xl mr-1 hover:text-darker-red ease-linear duration-300">&nbsp;</h2>
+
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">S</h2>
+
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">o</h2>
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">p</h2>
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">h</h2>
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">i</h2>
+        <h2 class="text-7xl mr-2 hover:text-darker-red ease-linear duration-100">e </h2>
+        <h2 class="text-7xl mr-1 hover:text-darker-red ease-linear duration-300">&nbsp;</h2>
+
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">W</h2>
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">o</h2>
+        <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">l</h2>    
+            <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">l</h2>
+            <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">i</h2>
+            <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">t</h2>
+            <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">z</h2>
+            <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">e</h2>
+            <h2 class="text-7xl  hover:text-darker-red ease-linear duration-100">r</h2>
+
+
+
+
+
+    </section>
+    <!--/* button from Uiverse.io by cssbuttons-io */ -->
+        <button onclick="scrollToSection('navBar')" class=" button1 text-2xl text-neon-red  m-5 p-3 border rounded-md border-neon-red">click here or scroll to learn more</button>
+      </section>
+    <header id="navBar" class="sticky items-center top-0 z-50 bg-gradient-radial p-6 flex h-16 justify-center space-x-10 rounded-md w-2/3 mx-auto">
+      <h1 onclick="scrollToTop()"class="text-4xl hover:text-darker-red ease-linear duration-300 hover:cursor-pointer">Home</h1>
+      <h1 onclick="scrollToSection('aboutMe')" class="text-4xl hover:text-darker-red ease-linear duration-300 hover:cursor-pointer">About Me</h1>
+      <h1 onclick="scrollToSection('journey')" class="text-4xl hover:text-darker-red ease-linear duration-300 hover:cursor-pointer">Journey</h1>
+      <h1 onclick="scrollToSection('contact')" class="text-4xl hover:text-darker-red ease-linear duration-300 hover:cursor-pointer">Contact</h1>
+
+    </header>
+    <main class="container mx-auto p-6">
+       <section id="aboutMe" class="mb-20"></section>
+      <section class="min-h-screen">
+        <h2 class="text-6xl animate fade-in-left mb-[-40px] cursor-default">ABOUT ME</h2>
+        <section class="flex justify-center items-center min-h-screen">
+      <p class="hover:text-darker-red animate fade-in-right pl-4 pr-4 pt-8 w-[55%] h-80 bg-navy ease-linear custom-shadow text-center text-2xl duration-300 rounded-lg mt-[-80px] cursor-default  border-2 border-darker-red hover:border-neon-red">Originally from Phoenix, Arizona, I started my CS journey in eighth grade with a simple project in Turtle. Now, I'm a sophomore studying Computer Science at Washington University in St. Louis. The way that computer science has become an intersection between the structure of mathematics and the creativity of other fields intruiges me. With interests in Software Engineering and Software Development, I am always excited to learn more.</p>
+    </section>
+    </section>
+
+    
+
+    <section id="journey" class="mb-20"></section>
+
+      <section class="space-y-4">
+        <h2  class="text-6xl animate fade-in-left cursor-default mb-16" >JOURNEY</h2>
+        
+      </section>
+      <section class="grid w-full  grid-cols-2 gap-10">
+        
+        <!-- /* cards from Uiverse.io by hoshikawamaki */  and modified by me-->
+      <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-neon-red"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      <div
+        class="text-2xl absolute flex  text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-[100%] peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-3xl bg-darker-red transition-all duration-500"
+      >
+In eighth grade, I installed Turtle straight onto my command prompt and spent two weeks learning how to draw with it. It was the first time I truly had fun learning on my own outside of school, and I knew then that I was going to want to learn more CS in the future.      </div>
+      <div class="text-3xl w-full h-full items-center justify-center flex uppercase text-darker-red">
+        My First Project
+      </div>
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl text-2xl font-bold bg-navy"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl  text-2xl font-bold bg-navy"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-neon-red"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      <div
+        class="text-2xl absolute flex  text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-[100%] peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-3xl bg-darker-red transition-all duration-500"
+      >
+My junior year of high school I took AP CS Principles, which taught me the basics of JavaScript. For my final project, I built a dog breed app to find breeds based on user input app through code.org. My senior year of high school, I took AP CS A and was introduced to Java.    </div>
+      <div class="text-3xl w-full h-full items-center justify-center flex uppercase text-darker-red">
+       AP CS Principles/AP CS A
+      </div>
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-neon-red"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      <div
+        class="text-2xl absolute flex text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-[100%] peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-3xl bg-darker-red transition-all duration-500"
+      >
+Accepted into WashU, I took Introduction to Computer Science in the fall, which taught Java. I also joined the Developer Student Club, WiCS, Society of Women Engineers, and began the Women in Engineering Leadership credential.     </div>
+      <div class="text-3xl w-full h-full items-center justify-center flex uppercase text-darker-red">
+        Fall 2023
+      </div>
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl text-2xl font-bold bg-navy"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl  text-2xl font-bold bg-navy"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-neon-red"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      <div
+        class="text-2xl absolute flex  text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-[100%] peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-3xl bg-darker-red transition-all duration-500"
+      >
+In the spring, I continued to learn Java through Data Structures and Algorithms and also took Introduction to Computer Engineering, which taught Arduino, C, and Assembly Code.     </div>
+      <div class="text-3xl w-full h-full items-center justify-center flex uppercase text-darker-red">
+        Spring 2024
+      </div>
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-neon-red"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      <div
+        class="text-2xl absolute flex  text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-[100%] peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-3xl bg-darker-red transition-all duration-500"
+      >
+In the summer, I completed three certifications, which were Responsive Web Design, JavaScript Algorithms and Data Structures (Beta), and Front End Development Libraries. Through these certifications, I was introduced to and became familiar with CSS, HTML, and more.      </div>
+      <div class="text-3xl w-full h-full items-center justify-center flex uppercase text-darker-red">
+       Summer 2024
+      </div>
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl  text-2xl font-bold bg-navy"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl text-2xl font-bold bg-navy"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+     
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-neon-red"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      <div
+        class="text-base absolute flex  text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-[100%] peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-3xl bg-darker-red transition-all duration-500"
+      >
+In the fall, I took Logic and Discrete Mathematics and learned C++ through Object Oriented Software Development Laboratory. I also become a project developer for the Developer Student Club, where I collaborated with with five students to develop a CRUD app for iOS and Android that displays consumer data and event promotion for Campus Creamery, WashU’s on campus ice cream store. I designed and built the admin community page to input new mix-ins that send to the backend and update the user-facing community page, the user community page to display mix-in data from persistent storage and enable real-time voting with live vote counters, and the admin home page for user-friendly instructions. I developed fullstack, utilizing Expo, React, TypeScript, JavaScript, and Firebase.
+
+</div>
+      <div class="text-3xl w-full h-full items-center justify-center flex uppercase text-darker-red">
+        Fall 2024
+      </div>
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-neon-red"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      <div
+        class="text-2xl absolute flex  text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-[100%] peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-3xl bg-darker-red transition-all duration-500"
+      >
+Since I've yet to take a CS class that uses Python, I decided over winter break to learn the basics through py4e.com. I also created this website, using Node.js, HTML, Tailwind CSS, and JavaScript. Since I spent the last semester using React, I decided it would be good practice to build a project with HTML.       </div>
+      <div class="text-3xl w-full h-full items-center justify-center flex uppercase text-darker-red">
+        Winter Break 2024
+      </div>
+    </div>
+    <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl  text-2xl font-bold bg-navy"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      
+    </div>
+      </section>
+      <section class="mt-10 grid w-full  grid-cols-1 gap-10">
+      <div
+      class="relative overflow-hidden w-full h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-neon-red"
+    >
+      <div class="z-10 absolute w-full h-full peer"></div>
+      
+      <div
+        class="text-2xl absolute flex  text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-[100%] peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-3xl bg-darker-red transition-all duration-500"
+      >
+I'm currently taking Web Development and Introduction to Parallel and Concurrent Programming. I am also continuing my role as a project developer for the Devleoper Student Club and will continue working on the app for Campus Creamery. Lastly, I am still an active member of WiCS and Society of Women Engineers, and am furthering my progress in the Women in Engineering Leadership Credential.  </div>
+      <div class="text-3xl w-full h-full items-center justify-center flex uppercase text-darker-red">
+        Spring 2025
+      </div>
+    </div>
+</section>
+
+<h2  class=" text-3xl mt-[20px] mb-[10px] animate fade-in-left flex items-center cursor-default justify-center">Campus Creamery App Demo</h2>
+<div class="flex space-x-4 animate fade-in-right items-center justify-center">
+  <video style="height: 400px;" controls>
+    <source src="video1.MP4" type="video/mp4">
+  </video>
+  <video style="height: 400px;" controls>
+    <source src="video2.MP4" type="video/mp4">
+  </video>
+</div>
+
+
+
+<section id="contact" class="mb-20"></section>
+
+      <section class="min-h-screen">
+        <h2  class=" text-6xl animate fade-in-left cursor-default mb-[-30px]">CONTACT</h2>
+        <section class="flex justify-center items-center min-h-screen">
+      <p class="hover:text-darker-red animate fade-in-right pt-28 cursor-default w-[50%] h-72 bg-navy ease-linear custom-shadow text-center text-3xl duration-300 rounded-lg mt-[-140px] font-bold   border-2 border-darker-red hover:border-neon-red">Feel free to reach out at swollitzer1@gmail.com</p>
+    </section>
+    </section>
+
+    <h2  class="cursor-default text-lg mt-[30px]">View my code for this website here: </h2>
+
+  
+
+
+    </main>
+
+  </body>
+</html>
