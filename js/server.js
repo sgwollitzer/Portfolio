@@ -1,4 +1,3 @@
-
 function scrollToSection(location){
     console.log("test");
     document.getElementById(location).scrollIntoView({
@@ -11,6 +10,7 @@ function scrollToTop() {
       behavior: 'smooth'
   });
 }
+
 //animation code by Chris Gustin
 const options = {
     root: null,
