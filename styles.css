@@ -638,7 +638,7 @@ video {
   background-color: rgb(96 139 193 / var(--tw-bg-opacity, 1));
 }
 .bg-gradient-radial {
-  background-image: radial-gradient(circle, #1B1833, #221936 );
+  background-image: radial-gradient(circle, #1B1833, #1c1a38 );
 }
 .p-3 {
   padding: 0.75rem;
