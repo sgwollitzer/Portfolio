@@ -813,15 +813,15 @@ video {
     --btn-color: #133E87 !important;
     border: .25em solid var(--glow-color) !important;
     padding: 1em 3em !important;
-    color: var(--glow-color) !important;
+    color: var(--glow-color) ;
     font-size: 15px !important;
     font-weight: bold !important;
-    background-color: var(--btn-color) !important;
+    background-color: var(--btn-color) ;
     border-radius: 1em !important;
     outline: none !important;
     box-shadow: 0 0 1em .25em var(--glow-color) ,
            0 0 4em 1em var(--glow-spread-color),
-           inset 0 0 .75em .25em var(--glow-color) !important;
+           inset 0 0 .75em .25em var(--glow-color) ;
     text-shadow: 0 0 .5em var(--glow-color) !important;
     position: relative !important;
     transition: all 0.3s !important;
