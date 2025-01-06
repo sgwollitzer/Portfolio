@@ -821,7 +821,7 @@ video {
     outline: none !important;
     box-shadow: 0 0 1em .25em var(--glow-color) ,
            0 0 4em 1em var(--glow-spread-color),
-           inset 0 0 .75em .25em var(--glow-color) !important;
+           inset 0 0 .75em .25em var(--glow-color) ;
     text-shadow: 0 0 .5em var(--glow-color) !important;
     position: relative !important;
     transition: all 0.3s !important;
@@ -842,11 +842,11 @@ video {
    }
    
    .button1:hover {
-    color: var(--btn-color);
-    background-color: var(--glow-color);
+    color: var(--btn-color) !important;
+    background-color: var(--glow-color) !important;
     box-shadow: 0 0 1em .25em var(--glow-color),
            0 0 4em 2em var(--glow-spread-color),
-           inset 0 0 .75em .25em var(--glow-color);
+           inset 0 0 .75em .25em var(--glow-color) !important;
    }
    
    .button1:active {
