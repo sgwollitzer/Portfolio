@@ -1,6 +1,6 @@
 Sophie Wollitzer's personal portfolio website
 
-basic boiler-plate by ChatGPT
+basic file creation/organization by ChatGPT
 
 used uiverse.io, with specific citations in code
 
